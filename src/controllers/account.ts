@@ -1,11 +1,10 @@
 import jwt from "jsonwebtoken";
-import { users } from "../data/users";
 import { messages } from "../utils";
 
 export const login = async (req: any, res: any) => {
   try {
     const { email, password } = req.body;
-
+    const users = require("../data/users");
     const user = users.find((_user: any) => _user.email === email);
 
     if (!user) {

@@ -1,5 +1,4 @@
 import jwt from "jsonwebtoken";
-import { users } from "../data/users";
 import { messages } from "../utils";
 
 export const authenticateJWT = (req: any, res: any, next: any) => {
@@ -14,7 +13,8 @@ export const authenticateJWT = (req: any, res: any, next: any) => {
     const serviceToken = token!.toString();
     const jwData: any = jwt.verify(serviceToken, process.env.JWT_SECRET || "");
     const { userId } = jwData;
-    const user = users.find((_user) => _user.id === userId);
+    const users = require("../data/users");
+    const user = users.find((_user: any) => _user.id === userId);
 
     if (!user) {
       return res
