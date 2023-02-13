@@ -5,5 +5,6 @@ const router = express.Router();
 
 router.get("/list", authenticateJWT, postsController.getPosts);
 router.post("/editComment", authenticateJWT, postsController.editComment);
+router.post("/list/like", authenticateJWT, postsController.like);
 
 export = router;
