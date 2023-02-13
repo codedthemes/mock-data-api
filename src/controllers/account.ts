@@ -42,3 +42,19 @@ export const login = async (req: any, res: any) => {
     });
   }
 };
+
+export const me = async (req: any, res: any) => {
+  try {
+    const { user } = req;
+    return res.status(200).json({
+      user: {
+        id: user.id,
+        email: user.email,
+      },
+    });
+  } catch (err) {
+    return res.status(500).json({
+      message: messages.errorMessages.serverError,
+    });
+  }
+};
