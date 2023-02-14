@@ -12,3 +12,5 @@ export * as simpleCardController from "./simple-card";
 export * as profileCardController from "./profile-card";
 export * as userListController from "./user-list";
 export * as profileListController from "./profile-list";
+export * as customerController from "./customer";
+export * as chatController from "./chat";

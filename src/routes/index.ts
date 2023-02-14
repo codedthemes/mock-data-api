@@ -13,6 +13,8 @@ import simpleCardRouter from "./simple-card"
 import profileCardRouter from "./profile-card"
 import userListRouter from "./user-list"
 import profileListRouter from "./profile-list"
+import customerRouter from "./customer"
+import chatRouter from "./chat"
 
 const router = express.Router();
 
@@ -30,5 +32,7 @@ router.use("/simple-card", simpleCardRouter);
 router.use("/profile-card", profileCardRouter);
 router.use("/user-list", userListRouter);
 router.use("/profile-list", profileListRouter);
+router.use("/customer", customerRouter);
+router.use("/chat", chatRouter);
 
 export = router;
