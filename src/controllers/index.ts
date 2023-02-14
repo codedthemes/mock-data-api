@@ -10,3 +10,5 @@ export * as galleryController from "./gallery";
 export * as detailsCardController from "./details-card";
 export * as simpleCardController from "./simple-card";
 export * as profileCardController from "./profile-card";
+export * as userListController from "./user-list";
+export * as profileListController from "./profile-list";

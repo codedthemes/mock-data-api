@@ -11,6 +11,8 @@ import galleryRouter from "./gallery";
 import detailsCardRouter from "./details-card"
 import simpleCardRouter from "./simple-card"
 import profileCardRouter from "./profile-card"
+import userListRouter from "./user-list"
+import profileListRouter from "./profile-list"
 
 const router = express.Router();
 
@@ -26,5 +28,7 @@ router.use("/gallery", galleryRouter);
 router.use("/details-card", detailsCardRouter);
 router.use("/simple-card", simpleCardRouter);
 router.use("/profile-card", profileCardRouter);
+router.use("/user-list", userListRouter);
+router.use("/profile-list", profileListRouter);
 
 export = router;
