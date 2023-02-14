@@ -8,6 +8,9 @@ import followersRouter from "./followers";
 import friendsRouter from "./friends";
 import friendRequestRouter from "./friends-request";
 import galleryRouter from "./gallery";
+import detailsCardRouter from "./details-card"
+import simpleCardRouter from "./simple-card"
+import profileCardRouter from "./profile-card"
 
 const router = express.Router();
 
@@ -19,6 +22,9 @@ router.use("/replies", repliesRouter);
 router.use("/followers", followersRouter);
 router.use("/friends", friendsRouter);
 router.use("/friend-request", friendRequestRouter);
-router.use("/gallery", galleryRouter)
+router.use("/gallery", galleryRouter);
+router.use("/details-card", detailsCardRouter);
+router.use("/simple-card", simpleCardRouter);
+router.use("/profile-card", profileCardRouter);
 
 export = router;

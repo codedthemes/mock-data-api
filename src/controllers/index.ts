@@ -7,3 +7,6 @@ export * as followersController from "./followers";
 export * as friendsController from "./friends";
 export * as friendRequestController from "./friend-request";
 export * as galleryController from "./gallery";
+export * as detailsCardController from "./details-card";
+export * as simpleCardController from "./simple-card";
+export * as profileCardController from "./profile-card";
