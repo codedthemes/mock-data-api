@@ -5,3 +5,5 @@ export * as commentsController from "./comments";
 export * as repliesController from "./replies";
 export * as followersController from "./followers";
 export * as friendsController from "./friends";
+export * as friendRequestController from "./friend-request";
+export * as galleryController from "./gallery";
