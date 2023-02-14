@@ -1,0 +1,142 @@
+[
+    {
+        "id": "#1Followers_Barney",
+        "avtar": "user-6.png",
+        "name": "Barney",
+        "location": "Handburgh",
+        "follow": 1
+    },
+    {
+        "id": "#2Followers_Thea",
+        "avtar": "user-3.png",
+        "name": "Thea",
+        "location": "New jana",
+        "follow": 2
+    },
+    {
+        "id": "#3Followers_Guiseppe",
+        "avtar": "user-7.png",
+        "name": "Guiseppe",
+        "location": "Jenkinsstad",
+        "follow": 1
+    },
+    {
+        "id": "#4Followers_Henderson",
+        "avtar": "user-8.png",
+        "name": "Henderson",
+        "location": "South Antonina",
+        "follow": 1
+    },
+    {
+        "id": "#5Followers_Maddison",
+        "avtar": "user-9.png",
+        "name": "Maddison",
+        "location": "New Dorthy",
+        "follow": 1
+    },
+    {
+        "id": "#6Followers_Wilber",
+        "avtar": "user-1.png",
+        "name": "Wilber",
+        "location": "Twilahsven",
+        "follow": 1
+    },
+    {
+        "id": "#7Followers_Hayden",
+        "avtar": "user-4.png",
+        "name": "Hayden",
+        "location": "Darrelshaire",
+        "follow": 1
+    },
+    {
+        "id": "#8Followers_Lloyd",
+        "avtar": "user-10.png",
+        "name": "Lloyd",
+        "location": "New Credrick",
+        "follow": 1
+    },
+    {
+        "id": "#9Followers_Kris",
+        "avtar": "user-8.png",
+        "name": "Kris",
+        "location": "New Dianna",
+        "follow": 1
+    },
+    {
+        "id": "#10Followers_Kyler",
+        "avtar": "user-11.png",
+        "name": "Kyler",
+        "location": "Murraymouth",
+        "follow": 1
+    },
+    {
+        "id": "#11Followers_Pamela",
+        "avtar": "user-3.png",
+        "name": "Pamela",
+        "location": "Murraymouth",
+        "follow": 1
+    },
+    {
+        "id": "#12Followers_Betty",
+        "avtar": "user-6.png",
+        "name": "John Doe",
+        "location": "North Zole",
+        "follow": 1
+    },
+    {
+        "id": "#13Followers_Anthony",
+        "avtar": "user-5.png",
+        "name": "Anthony",
+        "location": "Lake Judy",
+        "follow": 1
+    },
+    {
+        "id": "#14Followers_Reggie",
+        "avtar": "user-12.png",
+        "name": "Reggie",
+        "location": "Kailynland",
+        "follow": 1
+    },
+    {
+        "id": "#15Followers_Francesca",
+        "avtar": "user-1.png",
+        "name": "Francesca",
+        "location": "Pagacview",
+        "follow": 2
+    },
+    {
+        "id": "#16Followers_Carmel",
+        "avtar": "user-9.png",
+        "name": "Carmel",
+        "location": "Port Lerashire",
+        "follow": 1
+    },
+    {
+        "id": "#17Followers_Darwin",
+        "avtar": "user-4.png",
+        "name": "Darwin",
+        "location": "North Jacquesside",
+        "follow": 2
+    },
+    {
+        "id": "#18Followers_Kaylin",
+        "avtar": "user-3.png",
+        "name": "Kaylin",
+        "location": "Bergstrombury",
+        "follow": 1
+    },
+    {
+        "id": "#19Followers_Kamryn",
+        "avtar": "user-7.png",
+        "name": "Kamryn",
+        "location": "South Norma",
+        "follow": 1
+    },
+    {
+        "id": "#20Followers_Madelyn",
+        "avtar": "user-8.png",
+        "name": "Madelyn",
+        "location": "Port Opheliamouth",
+        "follow": 1
+    }
+]
