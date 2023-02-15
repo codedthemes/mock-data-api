@@ -14,3 +14,5 @@ export * as userListController from "./user-list";
 export * as profileListController from "./profile-list";
 export * as customerController from "./customer";
 export * as chatController from "./chat";
+export * as kanbanController from "./kanban";
+export * as contactController from "./contact";

@@ -15,6 +15,8 @@ import userListRouter from "./user-list"
 import profileListRouter from "./profile-list"
 import customerRouter from "./customer"
 import chatRouter from "./chat"
+import kanbanRouter from "./kanban"
+import contactRouter from "./contact"
 
 const router = express.Router();
 
@@ -34,5 +36,7 @@ router.use("/user-list", userListRouter);
 router.use("/profile-list", profileListRouter);
 router.use("/customer", customerRouter);
 router.use("/chat", chatRouter);
+router.use("/kanban", kanbanRouter);
+router.use("/contact", contactRouter);
 
 export = router;
