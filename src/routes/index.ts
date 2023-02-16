@@ -8,15 +8,21 @@ import followersRouter from "./followers";
 import friendsRouter from "./friends";
 import friendRequestRouter from "./friends-request";
 import galleryRouter from "./gallery";
-import detailsCardRouter from "./details-card"
-import simpleCardRouter from "./simple-card"
-import profileCardRouter from "./profile-card"
-import userListRouter from "./user-list"
-import profileListRouter from "./profile-list"
-import customerRouter from "./customer"
-import chatRouter from "./chat"
-import kanbanRouter from "./kanban"
-import contactRouter from "./contact"
+import detailsCardRouter from "./details-card";
+import simpleCardRouter from "./simple-card";
+import profileCardRouter from "./profile-card";
+import userListRouter from "./user-list";
+import profileListRouter from "./profile-list";
+import customerRouter from "./customer";
+import chatRouter from "./chat";
+import kanbanRouter from "./kanban";
+import contactRouter from "./contact";
+import mailsRouter from "./mails";
+import calendarRouter from "./calendar";
+import productsRouter from "./products";
+import productRouter from "./product";
+import reviewRouter from "./review";
+import addressRouter from "./address";
 
 const router = express.Router();
 
@@ -38,5 +44,11 @@ router.use("/customer", customerRouter);
 router.use("/chat", chatRouter);
 router.use("/kanban", kanbanRouter);
 router.use("/contact", contactRouter);
+router.use("/mails", mailsRouter);
+router.use("/calendar", calendarRouter);
+router.use("/products", productsRouter);
+router.use("/product", productRouter);
+router.use("/review", reviewRouter);
+router.use("/address", addressRouter);
 
 export = router;
