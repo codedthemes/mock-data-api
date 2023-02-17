@@ -23,6 +23,7 @@ import productsRouter from "./products";
 import productRouter from "./product";
 import reviewRouter from "./review";
 import addressRouter from "./address";
+import cartRouter from "./cart";
 
 const router = express.Router();
 
@@ -50,5 +51,6 @@ router.use("/products", productsRouter);
 router.use("/product", productRouter);
 router.use("/review", reviewRouter);
 router.use("/address", addressRouter);
+router.use("/cart", cartRouter);
 
 export = router;

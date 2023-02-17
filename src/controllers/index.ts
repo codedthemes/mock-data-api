@@ -22,3 +22,4 @@ export * as productsController from "./products";
 export * as productController from "./product";
 export * as reviewController from "./review";
 export * as addressController from "./address";
+export * as cartController from "./cart";
