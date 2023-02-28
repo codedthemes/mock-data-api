@@ -26,3 +26,7 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is up and runnig on ${PORT}`);
 });
+
+
+// Export the Express API
+module.exports = app
