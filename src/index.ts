@@ -19,6 +19,10 @@ app.use(
 );
 app.use("/api", router);
 
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
 app.listen(PORT, () => {
   console.log(`Server is up and runnig on ${PORT}`);
 });
